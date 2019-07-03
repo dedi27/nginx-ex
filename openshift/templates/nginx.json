@@ -93,7 +93,7 @@
             "from": {
               "kind": "ImageStreamTag",
               "namespace": "${NAMESPACE}",
-              "name": "nginx:${NGINX_VERSION}"
+              "name": "jwilder/nginx-proxy"
             }
           }
         },
